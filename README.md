@@ -1,3 +1,22 @@
+# LocalConvert
+
+Offline tools for Android and Windows.
+
+## Downloads
+
+- **Windows 1.9.1:** [Download the portable Windows app](https://github.com/AlexRacing98/LocalConvert/releases/download/windows-v1.9.1/LocalConvert-Windows-1.9.1-portable.zip) · [Release notes](https://github.com/AlexRacing98/LocalConvert/releases/tag/windows-v1.9.1)
+- **Android 1.9.1:** [Download the Android APK](https://github.com/AlexRacing98/LocalConvert/releases/download/Official_Release/LocalConvert-1.9.1.apk) · [Release notes](https://github.com/AlexRacing98/LocalConvert/releases/tag/Official_Release)
+
+### Windows setup
+
+Requires **64-bit Windows 10 (1809 or later) or Windows 11**. Extract the entire ZIP, then open **LocalConvert.exe** inside the LocalConvert folder. Keep the `_internal` folder beside the executable. No separate Python or Microsoft Office installation is needed.
+
+The Windows version includes all 45 local tools, a personalized home page, dark/light themes, history, and adaptive recommendations. It includes the improved light-theme button contrast. The executable is unsigned; physical webcam testing is pending. Full instructions and third-party licenses are included in the download.
+
+**AlexRacing98 All Rights Reserved**. Third-party components retain their own licenses.
+
+## Android features
+
 LocalConvert is an Android toolkit for converting, editing and organizing files locally on your phone. It works without an account, uploads or Google Play Services.
 
 It includes 45 tools across six categories:
