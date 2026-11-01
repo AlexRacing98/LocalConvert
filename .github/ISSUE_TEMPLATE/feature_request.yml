@@ -1,0 +1,33 @@
+name: Feature request
+description: Suggest a useful addition to LocalConvert.
+title: "[Idea] "
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Android and Windows
+        - Android
+        - Windows
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What task are you trying to complete?
+      description: Describe the workflow or problem this would help with.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your suggestion
+      description: Include input and output formats if this is a conversion tool. LocalConvert focuses on processing that can happen offline.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or examples
+      description: Optional examples with invented content. Do not include private files or credentials.

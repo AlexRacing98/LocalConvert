@@ -1,0 +1,62 @@
+name: Bug report
+description: Report something that is not working as expected.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve LocalConvert. Issues are public: remove personal files, passwords, QR contents, and private paths from anything you share. For a private report, see SUPPORT.md.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Android
+        - Windows
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: LocalConvert version
+      placeholder: "For example, 1.9.1"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Device and operating system
+      placeholder: "For example, Huawei / Android 10, or Windows 10 22H2 x64"
+  - type: input
+    id: tool
+    attributes:
+      label: Affected tool or screen
+      placeholder: "For example, Images to PDF or Settings"
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open…
+        2. Select…
+        3. Press…
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened?
+      description: Include the exact error message if one appeared.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional details
+      description: Optional screenshots or a small sample made with invented content. Do not attach personal documents.

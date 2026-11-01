@@ -1,32 +1,83 @@
-# LocalConvert
+<p align="center">
+  <img src="docs/assets/hero.svg" alt="LocalConvert — Your files. Your device. 45 offline tools for Android and Windows." width="100%">
+</p>
 
-Offline tools for Android and Windows.
+<p align="center">
+  <strong>Convert, edit, and organize your files—right where they belong.</strong><br>
+  45 everyday tools. Local processing. No account or conversion uploads.
+</p>
 
-## Downloads
+<p align="center">
+  <a href="#download">Download</a> ·
+  <a href="docs/TOOLS.md">Explore the tools</a> ·
+  <a href="docs/INSTALLATION.md">Installation</a> ·
+  <a href="docs/PRIVACY.md">Privacy</a> ·
+  <a href="SUPPORT.md">Get help</a>
+</p>
 
-- **Windows 1.9.1:** [Download the portable Windows app](https://github.com/AlexRacing98/LocalConvert/releases/download/windows-v1.9.1/LocalConvert-Windows-1.9.1-portable.zip) · [Release notes](https://github.com/AlexRacing98/LocalConvert/releases/tag/windows-v1.9.1)
-- **Android 1.9.1:** [Download the Android APK](https://github.com/AlexRacing98/LocalConvert/releases/download/Official_Release/LocalConvert-1.9.1.apk) · [Release notes](https://github.com/AlexRacing98/LocalConvert/releases/tag/Official_Release)
+## Download
 
-### Windows setup
+<p align="center">
+  <a href="https://github.com/AlexRacing98/LocalConvert/releases/download/Official_Release/LocalConvert-1.9.1.apk"><img src="docs/assets/download-android.svg" alt="Download LocalConvert 1.9.1 for Android" width="235"></a>
+  &nbsp;
+  <a href="https://github.com/AlexRacing98/LocalConvert/releases/download/windows-v1.9.1/LocalConvert-Windows-1.9.1-portable.zip"><img src="docs/assets/download-windows.svg" alt="Download LocalConvert 1.9.1 for Windows" width="235"></a>
+</p>
 
-Requires **64-bit Windows 10 (1809 or later) or Windows 11**. Extract the entire ZIP, then open **LocalConvert.exe** inside the LocalConvert folder. Keep the `_internal` folder beside the executable. No separate Python or Microsoft Office installation is needed.
+| Platform | Requirements | Get started |
+| :-- | :-- | :-- |
+| **Android 1.9.1** | Android 8.0 or newer · no Google Play Services required | Download the APK and follow Android’s installation prompts. |
+| **Windows 1.9.1** | 64-bit Windows 10, version 1809 or newer, or Windows 11 | Extract the **entire ZIP**, then open **LocalConvert.exe**. Keep the `_internal` folder beside it. |
 
-The Windows version includes all 45 local tools, a personalized home page, dark/light themes, history, and adaptive recommendations. It includes the improved light-theme button contrast. The executable is unsigned; physical webcam testing is pending. Full instructions and third-party licenses are included in the download.
+Windows includes its runtime: no separate Python or Microsoft Office installation is needed. The executable is currently unsigned.
 
-**AlexRacing98 All Rights Reserved**. Third-party components retain their own licenses.
+[Android release notes](https://github.com/AlexRacing98/LocalConvert/releases/tag/Official_Release) · [Windows release notes](https://github.com/AlexRacing98/LocalConvert/releases/tag/windows-v1.9.1) · [Installation guide](docs/INSTALLATION.md)
 
-## Android features
+## A workspace that feels like yours
 
-LocalConvert is an Android toolkit for converting, editing and organizing files locally on your phone. It works without an account, uploads or Google Play Services.
+Start with a welcome message, discover recommended tools, and find previous results in History. Add your name, switch between light and dark themes, and reset your recommendations whenever you want a fresh start.
 
-It includes 45 tools across six categories:
+<p align="center">
+  <img src="docs/assets/windows-home-dark.png" alt="LocalConvert Windows dark theme: welcome page, recommended tools, category shortcuts, and sidebar navigation" width="960">
+</p>
 
-PDF tools: Turn images into PDFs, export PDF pages as images, merge or split PDFs, compress PDFs, rotate pages and extract selected pages.
-Image tools: Convert PNG, JPG and WebP; resize, crop and compress images; remove personal metadata; and add text watermarks.
-Text tools: Create PDF or DOCX documents from text, count words and characters, change capitalization, remove duplicate lines, sort lines, and format or validate JSON.
-File tools: Batch rename files, find identical duplicates, analyze storage within a selected folder, create or extract ZIP archives, and sort files into folders by type. Renaming and sorting show a preview before applying changes.
-Privacy & Security: Generate random passwords, create QR codes, scan QR codes using the camera or saved images, encode/decode Base64, and generate SHA-256 or MD5 checksums.
-Converters: Convert temperature, length, weight and speed. The general Unit Converter also covers area, volume, time, data sizes, pressure and energy. Currency conversion uses dated offline rates, with options to import newer rates or enter your own.
-The app also has a personalized welcome message, dark and light themes, saved-output history with open/share options, and recommendations that adapt to frequently and recently opened tools. Reset recommendations in Settings lets users start fresh.
+<details>
+<summary><strong>See the light theme</strong></summary>
+<br>
+<img src="docs/assets/windows-home-light.png" alt="LocalConvert Windows light theme with clear blue icons and a pale blue Explore tools button" width="960">
+</details>
 
-A Report a bug button opens an email draft in the phone’s mail app. Currency-rate downloads and sending bug reports happen through external apps; LocalConvert’s processing stays on the device.
+*Windows interface previews rendered from the desktop app. Android adapts the toolkit to a phone-sized layout.*
+
+## One toolkit. Six categories.
+
+| Category | Tools | What you can do |
+| :-- | :--: | :-- |
+| **PDF Tools** | 7 | Create PDFs from images, export pages as images, merge, split, compress, rotate, and extract pages. |
+| **Image Tools** | 10 | Convert PNG/JPG/WebP, resize, crop, compress, remove metadata, and add text watermarks. |
+| **File Tools** | 6 | Preview batch renames, find identical duplicates, analyze folders, ZIP/unzip, and sort by file type. |
+| **Text Tools** | 9 | Export text to PDF/DOCX, count words and characters, change case, clean and sort lines, and format/validate JSON. |
+| **Privacy & Security** | 7 | Generate passwords and QR codes, scan QR codes, encode/decode Base64, and calculate SHA-256 or MD5 checksums. |
+| **Converters** | 6 | Convert units, temperature, length, weight, speed, and currencies using dated offline or manual rates. |
+
+[Browse all 45 tools →](docs/TOOLS.md)
+
+## Private by design
+
+- **Processing stays on your device.** Files are not uploaded to a conversion service.
+- **No account, ads, or subscriptions.** Open the app and choose a tool.
+- **Local recommendations.** Recommendations use recent tool choices on that device; they are not sent to an analytics service.
+- **You choose what to share.** Bug reports open an email draft. Sending mail and opening external links happen through your chosen apps.
+
+Currency conversion uses a dated snapshot rather than live rates. You can import a newer ECB-format XML file or enter a manual rate. Base64 is an encoding; MD5 is a legacy checksum. See the [privacy notes](docs/PRIVACY.md) and [tool guide](docs/TOOLS.md) for practical limits.
+
+## Help shape what comes next
+
+Found something that needs fixing? [Report a bug](https://github.com/AlexRacing98/LocalConvert/issues/new?template=bug_report.yml). Have an idea for another useful offline tool? [Suggest a feature](https://github.com/AlexRacing98/LocalConvert/issues/new?template=feature_request.yml).
+
+For help with installation or a private report, see [Support](SUPPORT.md). Changes are listed in the [changelog](CHANGELOG.md).
+
+---
+
+Made by **AlexRacing98**.
+
+**AlexRacing98 All Rights Reserved**. This repository hosts official downloads, documentation, and issue tracking; application source code is not published here. Third-party components retain their own licenses, included with the application packages. See [LICENSE](LICENSE).
