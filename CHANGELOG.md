@@ -2,6 +2,17 @@
 
 Release downloads are available on the [Releases page](https://github.com/AlexRacing98/LocalConvert/releases).
 
+## Windows 1.9.2 — November 4, 2026
+
+- Fixed PDF compression skipping transparent images, including photo PDFs created by LocalConvert; added CMYK/palette image handling.
+- Preserved selectable text and image transparency, and optimized shared images only once.
+- Added original/output byte counts, percentage saved, and optimized-image counts. Outputs less than 1% smaller are rejected with guidance.
+- Verified a transparent-photo PDF reducing from 4,053,499 to 355,120 bytes (91.2%) at quality 40; savings vary by file and setting.
+- All 22 packaged engine tests and all 45 packaged UI forms passed; 293 source UI assertions passed.
+- Windows-only update. Android remains at 1.9.1.
+
+[Download Windows 1.9.2](https://github.com/AlexRacing98/LocalConvert/releases/tag/windows-v1.9.2)
+
 ## 1.9.1 — November 1, 2026
 
 ### Windows
