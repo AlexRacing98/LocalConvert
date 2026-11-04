@@ -16,7 +16,7 @@ The app works locally. Camera access is used for QR scanning; files and images a
 
 **Requires 64-bit Windows 10 version 1809 or newer, or Windows 11.**
 
-1. Download [LocalConvert-Windows-1.9.1-portable.zip](https://github.com/AlexRacing98/LocalConvert/releases/download/windows-v1.9.1/LocalConvert-Windows-1.9.1-portable.zip).
+1. Download [LocalConvert-Windows-1.9.2-portable.zip](https://github.com/AlexRacing98/LocalConvert/releases/download/windows-v1.9.2/LocalConvert-Windows-1.9.2-portable.zip).
 2. Extract the **entire ZIP** to a normal folder.
 3. Open the extracted **LocalConvert** folder.
 4. Run **LocalConvert.exe**.
@@ -48,6 +48,6 @@ These SHA-256 checksums identify the current published files. Compare the downlo
 | File | SHA-256 |
 | :-- | :-- |
 | `LocalConvert-1.9.1.apk` | `d7fd63907d8e56808e7b0c868348e6fc0c1656fdaefd424b8ff3f60ebcb8916f` |
-| `LocalConvert-Windows-1.9.1-portable.zip` | `c156219a1ab981ab5c31a8fa6b7af91d469f23c4d48f8d086a105f05a19ece8f` |
+| `LocalConvert-Windows-1.9.2-portable.zip` | `40bffbd18581384a37997cdf7426dd19efdfaf8c0f61a604b7776145a8af1ce3` |
 
 Need more help? See [Support](../SUPPORT.md).
