@@ -20,17 +20,17 @@
 <p align="center">
   <a href="https://github.com/AlexRacing98/LocalConvert/releases/download/Official_Release/LocalConvert-1.9.1.apk"><img src="docs/assets/download-android.svg" alt="Download LocalConvert 1.9.1 for Android" width="235"></a>
   &nbsp;
-  <a href="https://github.com/AlexRacing98/LocalConvert/releases/download/windows-v1.9.2/LocalConvert-Windows-1.9.2-portable.zip"><img src="docs/assets/download-windows.svg" alt="Download LocalConvert 1.9.2 for Windows" width="235"></a>
+  <a href="https://github.com/AlexRacing98/LocalConvert/releases/download/windows-v1.9.3/LocalConvert-Windows-1.9.3-portable.zip"><img src="docs/assets/download-windows.svg" alt="Download LocalConvert 1.9.3 for Windows" width="235"></a>
 </p>
 
 | Platform | Requirements | Get started |
 | :-- | :-- | :-- |
 | **Android 1.9.1** | Android 8.0 or newer · no Google Play Services required | Download the APK and follow Android’s installation prompts. |
-| **Windows 1.9.2** | 64-bit Windows 10, version 1809 or newer, or Windows 11 | Extract the **entire ZIP**, then open **LocalConvert.exe**. Keep the `_internal` folder beside it. |
+| **Windows 1.9.3** | 64-bit Windows 10, version 1809 or newer, or Windows 11 | Extract the **entire ZIP**, then open **LocalConvert.exe**. Keep the `_internal` folder beside it. |
 
 Windows includes its runtime: no separate Python or Microsoft Office installation is needed. The executable is currently unsigned.
 
-[Android release notes](https://github.com/AlexRacing98/LocalConvert/releases/tag/Official_Release) · [Windows release notes](https://github.com/AlexRacing98/LocalConvert/releases/tag/windows-v1.9.2) · [Installation guide](docs/INSTALLATION.md)
+[Android release notes](https://github.com/AlexRacing98/LocalConvert/releases/tag/Official_Release) · [Windows release notes](https://github.com/AlexRacing98/LocalConvert/releases/tag/windows-v1.9.3) · [Installation guide](docs/INSTALLATION.md)
 
 ## A workspace that feels like yours
 
