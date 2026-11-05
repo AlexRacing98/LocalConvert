@@ -2,6 +2,15 @@
 
 Release downloads are available on the [Releases page](https://github.com/AlexRacing98/LocalConvert/releases).
 
+## Windows 1.9.3 — November 5, 2026
+
+- Added Explorer file drops to Images to PDF and checks that reject oversized images before decoding.
+- Limited memory use for large image batches and very wide or tall PDF page renders. PDF compression skips oversized embedded images and transparency masks.
+- Cleared stale crop and watermark previews when a replacement fails to load.
+- All 27 packaged engine tests passed and all 45 tool screens opened.
+
+[Download Windows 1.9.3](https://github.com/AlexRacing98/LocalConvert/releases/tag/windows-v1.9.3)
+
 ## Windows 1.9.2 — November 4, 2026
 
 - Fixed PDF compression skipping transparent images, including photo PDFs created by LocalConvert; added CMYK/palette image handling.
