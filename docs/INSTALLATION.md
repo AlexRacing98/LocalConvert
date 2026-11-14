@@ -43,7 +43,7 @@ Choose **Save a copy** after a conversion to export the result to a location you
 | :-- | :-- |
 | Missing DLL or runtime files | Extract the full ZIP again. Keep `_internal` with the EXE. |
 | A tool’s action button is lower down | Scroll within the main content area; longer forms include previews and output options. |
-| No camera image | Check that a webcam is connected and available to desktop apps. Start with camera number 0, then try another number. Hardware compatibility is not yet fully tested. |
+| No camera image | Check that a webcam is connected and available to desktop apps. Start with camera number 0, then try another number. |
 | The bug-report button does not open email | Configure a default email app, or email the address in [Support](../SUPPORT.md). |
 | Currency rates are old | Import a newer daily ECB-format XML file or enter a manual rate. Rates are not fetched automatically. |
 
