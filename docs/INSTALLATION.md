@@ -6,11 +6,17 @@ Download official builds from [AlexRacing98/LocalConvert Releases](https://githu
 
 **Requires Android 8.0 or newer.** Google Play Services are not required.
 
-1. Download [LocalConvert-1.9.1.apk](https://github.com/AlexRacing98/LocalConvert/releases/download/Official_Release/LocalConvert-1.9.1.apk) on your Android device.
+1. Download [LocalConvert-Android-1.9.6.apk](https://github.com/AlexRacing98/LocalConvert/releases/download/android-v1.9.6/LocalConvert-Android-1.9.6.apk) on your Android device.
 2. Open the downloaded APK and follow Android’s installation prompts.
 3. Open **LocalConvert**, then choose a tool from Home or Tools.
 
 The app works locally. Camera access is used for QR scanning; files and images are selected through the device’s pickers. You do not need a LocalConvert account.
+
+### Updating Android
+
+Install the new APK over your existing official LocalConvert installation to keep its settings. Version 1.9.6 uses the same signing certificate as earlier Android releases.
+
+The APK includes offline image decoders. HEIC/HEIF decoding requires an ARM device; Intel-only emulators may not support it. See [Android image support](TOOLS.md#android-image-support) for formats and limits. The old `LocalConvert-1.9.1.apk` in the repository root is an archived build; use the release download linked above for the current version.
 
 ## Windows
 
@@ -47,7 +53,7 @@ These SHA-256 checksums identify the current published files. Compare the downlo
 
 | File | SHA-256 |
 | :-- | :-- |
-| `LocalConvert-1.9.1.apk` | `d7fd63907d8e56808e7b0c868348e6fc0c1656fdaefd424b8ff3f60ebcb8916f` |
+| `LocalConvert-Android-1.9.6.apk` | `a4394a268d6e86d3a2c97a2c41c69122f9ac059d77a768b528c9b585676b7cb0` |
 | `LocalConvert-Windows-1.9.3-portable.zip` | `d6974fcb70e5829596571f860bb2ece381f112a7805b0fc815e5e6bfa87a75c5` |
 
 Need more help? See [Support](../SUPPORT.md).
