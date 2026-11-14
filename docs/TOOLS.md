@@ -91,6 +91,17 @@ Supported conversion formats include PNG, JPEG, and WebP. JPEG replaces transpar
 
 Remove metadata re-encodes the visible image without copying personal EXIF/GPS/XMP data. It does not redact visible information. Technical fields, such as dimensions, may remain. Lossy JPEG/WebP settings can change image quality.
 
+### Android image support
+
+Android **1.9.6** reads JPEG, PNG, WebP, TIFF, AVIF, JPEG XL (JXL), HEIC and HEIF in Images to PDF, Image converter, all four conversion shortcuts, Resize, Crop, Compress, Remove metadata, Watermark and QR image scanning. Tested modern inputs include 10-bit AVIF, HEIC and HEIF. The shortcuts retain their familiar names but accept these additional inputs.
+
+- Outputs remain **standard 8-bit PNG, JPEG or WebP**, or a PDF from Images to PDF. This does not preserve HDR/10-bit output or encode AVIF, JXL or HEIC.
+- HEIC/HEIF software decoding requires **ARM**. Intel-only emulators may not decode these formats.
+- Modern-format inputs: **32 MiB**, **16 megapixels**, up to **12,000 pixels per source edge**; decoded images are sampled to at most **6 megapixels**, with smaller previews and QR images.
+- TIFF uses the **first page** and separate limits: 256 MiB input, 32 megapixels, 12,000 pixels per edge, and a 64 MiB native decode budget. Unsupported layouts are rejected; decoded output is sampled to at most 6 megapixels.
+- If the system picker hides a file, use **Find images in a folder** in the image conversion/editing tool. QR scanning uses the system image-file picker.
+- These additions apply to Android; Windows remains on version 1.9.3.
+
 ### Files
 
 Choose a folder for rename, duplicate finding, storage analysis, or sorting. Duplicate finding compares file contents using SHA-256 and does not delete duplicates. Storage analysis describes the selected folder; it is not a whole-drive cleanup service.
