@@ -2,6 +2,18 @@
 
 Release downloads are available on the [Releases page](https://github.com/AlexRacing98/LocalConvert/releases).
 
+## Android 1.9.6 — November 14, 2026
+
+- Added offline TIFF, AVIF, JPEG XL, HEIC and HEIF input support across Images to PDF, every image conversion/editing tool, previews and QR image scanning, including tested 10-bit AVIF/HEIC/HEIF files.
+- Expanded file selection and added an optional folder route for image conversion/editing tools when system pickers hide uncommon formats.
+- Added memory safeguards and corrupt-file checks; a failed replacement keeps the previous valid image in single-image tools.
+- Includes earlier Android fixes for large TIFF imports and unusually wide or tall PDF page exports.
+- Image exports remain standard 8-bit PNG/JPEG/WebP. HEIC/HEIF software decoding requires ARM. Modern inputs have 32 MiB / 16 MP limits, sampled to at most 6 MP.
+- All 91 unit tests passed. Android 9 emulator testing using ARM64 covered nine input formats and actual picker, crop, watermark and QR screens. Physical Huawei testing of this build remains pending.
+- No new permissions, network access or Google Play dependency.
+
+[Download Android 1.9.6](https://github.com/AlexRacing98/LocalConvert/releases/tag/android-v1.9.6)
+
 ## Windows 1.9.3 — November 5, 2026
 
 - Added Explorer file drops to Images to PDF and checks that reject oversized images before decoding.
