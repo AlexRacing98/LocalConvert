@@ -1,5 +1,8 @@
 # Privacy and local processing
 
+**[Read the Android Privacy Policy](https://alexracing98.github.io/LocalConvert/privacy/)** — public policy for LocalConvert on HUAWEI AppGallery, including permissions, local storage, and privacy choices.
+
+
 ## Files stay on your device
 
 LocalConvert performs its conversion and analysis work on the device running the app. It does not upload files to a conversion server and does not require a LocalConvert account. The Android application does not request the Android internet permission. The Windows application does not include a conversion-service client, analytics, or an automatic update service.
