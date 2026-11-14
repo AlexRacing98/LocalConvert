@@ -93,7 +93,7 @@ Remove metadata re-encodes the visible image without copying personal EXIF/GPS/X
 
 ### Android image support
 
-Android **1.9.6** reads JPEG, PNG, WebP, TIFF, AVIF, JPEG XL (JXL), HEIC and HEIF in Images to PDF, Image converter, all four conversion shortcuts, Resize, Crop, Compress, Remove metadata, Watermark and QR image scanning. Tested modern inputs include 10-bit AVIF, HEIC and HEIF. The shortcuts retain their familiar names but accept these additional inputs.
+Android **1.9.6** reads JPEG, PNG, WebP, TIFF, AVIF, JPEG XL (JXL), HEIC and HEIF in Images to PDF, Image converter, all four conversion shortcuts, Resize, Crop, Compress, Remove metadata, Watermark and QR image scanning. Supported modern inputs include 10-bit AVIF, HEIC and HEIF. The shortcuts retain their familiar names but accept these additional inputs.
 
 - Outputs remain **standard 8-bit PNG, JPEG or WebP**, or a PDF from Images to PDF. This does not preserve HDR/10-bit output or encode AVIF, JXL or HEIC.
 - HEIC/HEIF software decoding requires **ARM**. Intel-only emulators may not decode these formats.
@@ -112,7 +112,7 @@ Batch rename, sorting, and ZIP extraction show a preview before applying changes
 
 Word and character counting have different rules: the character counter counts Unicode code points, so a combined accent or emoji sequence can contain multiple characters. JSON tools reject duplicate keys and invalid values while preserving number spelling. Line tools can ignore case, trim lines, and remove empty lines.
 
-Passwords are generated using secure randomness. QR codes can be created from text and read from an image or camera; the decoded content is displayed without automatically opening links. Physical webcam testing of the Windows scanner is pending.
+Passwords are generated using secure randomness. QR codes can be created from text and read from an image or camera; the decoded content is displayed without automatically opening links.
 
 Base64 is an encoding, not encryption. The decoder supports text and binary output. SHA-256 and MD5 calculate checksums; MD5 is a legacy option and is not suitable for password storage or security verification.
 
