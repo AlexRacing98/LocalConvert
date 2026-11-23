@@ -2,6 +2,15 @@
 
 Release downloads are available on the [Releases page](https://github.com/AlexRacing98/LocalConvert/releases).
 
+## Android 1.9.8 — November 23, 2026
+
+- Added explicit Agree and Reject privacy choices, with English and Simplified Chinese policies available offline.
+- Added Withdraw agreement in Settings and renewed agreement for the revised policy.
+- Updated developer information in both policy languages.
+- Published the AppGallery-signed APK. Older GitHub builds use a different signing key; see the [updating instructions](docs/INSTALLATION.md#updating-android).
+
+[Download Android 1.9.8](https://github.com/AlexRacing98/LocalConvert/releases/tag/android-v1.9.8)
+
 ## Android 1.9.6 — November 14, 2026
 
 - Added offline TIFF, AVIF, JPEG XL, HEIC and HEIF input support across Images to PDF, every image conversion/editing tool, previews and QR image scanning, including 10-bit AVIF/HEIC/HEIF files.
