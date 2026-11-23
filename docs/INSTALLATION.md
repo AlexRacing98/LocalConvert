@@ -6,15 +6,17 @@ Download official builds from [AlexRacing98/LocalConvert Releases](https://githu
 
 **Requires Android 8.0 or newer.** Google Play Services are not required.
 
-1. Download [LocalConvert-Android-1.9.6.apk](https://github.com/AlexRacing98/LocalConvert/releases/download/android-v1.9.6/LocalConvert-Android-1.9.6.apk) on your Android device.
+1. Download [LocalConvert-1.9.8-Release.apk](https://github.com/AlexRacing98/LocalConvert/releases/download/android-v1.9.8/LocalConvert-1.9.8-Release.apk) on your Android device.
 2. Open the downloaded APK and follow Android’s installation prompts.
-3. Open **LocalConvert**, then choose a tool from Home or Tools.
+3. Open **LocalConvert**, read the privacy policy and choose **Agree**, then select a tool from Home or Tools.
 
 The app works locally. Camera access is used for QR scanning; files and images are selected through the device’s pickers. You do not need a LocalConvert account.
 
 ### Updating Android
 
-Install the new APK over your existing official LocalConvert installation to keep its settings. Version 1.9.6 uses the same signing certificate as earlier Android releases.
+Version 1.9.8 uses the AppGallery release signing certificate. It can update existing AppGallery release builds with the same certificate while keeping settings.
+
+Older GitHub APKs, including the previous GitHub 1.9.6 download, used a different certificate and cannot be updated directly with this build. If Android reports a signature conflict, save any needed files outside the app before uninstalling the old build and installing this one. Uninstalling clears local settings, history and recommendations.
 
 The APK includes offline image decoders. HEIC/HEIF decoding requires an ARM device; Intel-only emulators may not support it. See [Android image support](TOOLS.md#android-image-support) for formats and limits. The old `LocalConvert-1.9.1.apk` in the repository root is an archived build; use the release download linked above for the current version.
 
@@ -53,7 +55,7 @@ These SHA-256 checksums identify the current published files. Compare the downlo
 
 | File | SHA-256 |
 | :-- | :-- |
-| `LocalConvert-Android-1.9.6.apk` | `a4394a268d6e86d3a2c97a2c41c69122f9ac059d77a768b528c9b585676b7cb0` |
+| `LocalConvert-1.9.8-Release.apk` | `f3ae102f6069b3bced08ec7147d8207735246c3687035a4e8d94132259cfc89c` |
 | `LocalConvert-Windows-1.9.3-portable.zip` | `d6974fcb70e5829596571f860bb2ece381f112a7805b0fc815e5e6bfa87a75c5` |
 
 Need more help? See [Support](../SUPPORT.md).
