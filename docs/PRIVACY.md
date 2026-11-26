@@ -5,7 +5,7 @@
 
 ## Windows privacy choices
 
-Windows **1.9.8** includes its complete privacy policy offline in **Settings → Privacy**, in English and Simplified Chinese. On first launch, **Agree** records your choice on this PC and opens the app; **Reject** closes it. **Withdraw agreement** in Settings preserves your files and preferences and asks again on the next launch. Agreement is not sent to a server.
+Windows **1.9.4** includes its complete privacy policy offline in **Settings → Privacy**, in English and Simplified Chinese. On first launch, **Agree** records your choice on this PC and opens the app; **Reject** closes it. **Withdraw agreement** in Settings preserves your files and preferences and asks again on the next launch. Agreement is not sent to a server.
 
 ## Files stay on your device
 

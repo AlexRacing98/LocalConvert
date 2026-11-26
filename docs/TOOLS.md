@@ -103,7 +103,7 @@ Android **1.9.6 and newer** reads JPEG, PNG, WebP, TIFF, AVIF, JPEG XL (JXL), HE
 
 ### Windows image support
 
-Windows **1.9.8** reads JPEG, PNG, WebP, TIFF, AVIF, JPEG XL (JXL), HEIC and HEIF across all image conversion/editing tools, Images to PDF and QR image scanning. Modern inputs include 10-bit AVIF, HEIC and HEIF. Decoders are included; no Store codec or additional download is required. The conversion shortcuts also accept these formats.
+Windows **1.9.4** reads JPEG, PNG, WebP, TIFF, AVIF, JPEG XL (JXL), HEIC and HEIF across all image conversion/editing tools, Images to PDF and QR image scanning. Modern inputs include 10-bit AVIF, HEIC and HEIF. Decoders are included; no Store codec or additional download is required. The conversion shortcuts also accept these formats.
 
 - Outputs remain **standard 8-bit PNG, JPEG or WebP**, or a PDF from Images to PDF. HDR/10-bit output is not preserved.
 - AVIF, JXL and HEIC/HEIF inputs are limited to **32 MB**, **16 megapixels** and **12,000 pixels per source edge**, sampled to at most **6 megapixels**.

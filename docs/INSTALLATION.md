@@ -24,7 +24,7 @@ The APK includes offline image decoders. HEIC/HEIF decoding requires an ARM devi
 
 **Requires 64-bit Windows 10 version 1809 or newer, or Windows 11.**
 
-1. Download [LocalConvert-Windows-1.9.8-portable.zip](https://github.com/AlexRacing98/LocalConvert/releases/download/windows-v1.9.8/LocalConvert-Windows-1.9.8-portable.zip).
+1. Download [LocalConvert-Windows-1.9.4-portable.zip](https://github.com/AlexRacing98/LocalConvert/releases/download/windows-v1.9.4/LocalConvert-Windows-1.9.4-portable.zip).
 2. Extract the **entire ZIP** to a normal folder.
 3. Open the extracted **LocalConvert** folder.
 4. Run **LocalConvert.exe**.
@@ -57,6 +57,6 @@ These SHA-256 checksums identify the current published files. Compare the downlo
 | File | SHA-256 |
 | :-- | :-- |
 | `LocalConvert-1.9.8-Release.apk` | `f3ae102f6069b3bced08ec7147d8207735246c3687035a4e8d94132259cfc89c` |
-| `LocalConvert-Windows-1.9.8-portable.zip` | `31839814943105d6133fa84bf1f3b7af089ec89835d74fe2d3ad9ad36a8adc93` |
+| `LocalConvert-Windows-1.9.4-portable.zip` | `f2a649a0d6d4031b33c7b46796a850a7a4b2cbcc73373ea0f29ae27bf936454e` |
 
 Need more help? See [Support](../SUPPORT.md).
