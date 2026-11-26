@@ -93,14 +93,21 @@ Remove metadata re-encodes the visible image without copying personal EXIF/GPS/X
 
 ### Android image support
 
-Android **1.9.6** reads JPEG, PNG, WebP, TIFF, AVIF, JPEG XL (JXL), HEIC and HEIF in Images to PDF, Image converter, all four conversion shortcuts, Resize, Crop, Compress, Remove metadata, Watermark and QR image scanning. Supported modern inputs include 10-bit AVIF, HEIC and HEIF. The shortcuts retain their familiar names but accept these additional inputs.
+Android **1.9.6 and newer** reads JPEG, PNG, WebP, TIFF, AVIF, JPEG XL (JXL), HEIC and HEIF in Images to PDF, Image converter, all four conversion shortcuts, Resize, Crop, Compress, Remove metadata, Watermark and QR image scanning. Supported modern inputs include 10-bit AVIF, HEIC and HEIF. The shortcuts retain their familiar names but accept these additional inputs.
 
 - Outputs remain **standard 8-bit PNG, JPEG or WebP**, or a PDF from Images to PDF. This does not preserve HDR/10-bit output or encode AVIF, JXL or HEIC.
 - HEIC/HEIF software decoding requires **ARM**. Intel-only emulators may not decode these formats.
 - Modern-format inputs: **32 MiB**, **16 megapixels**, up to **12,000 pixels per source edge**; decoded images are sampled to at most **6 megapixels**, with smaller previews and QR images.
 - TIFF uses the **first page** and separate limits: 256 MiB input, 32 megapixels, 12,000 pixels per edge, and a 64 MiB native decode budget. Unsupported layouts are rejected; decoded output is sampled to at most 6 megapixels.
 - If the system picker hides a file, use **Find images in a folder** in the image conversion/editing tool. QR scanning uses the system image-file picker.
-- These additions apply to Android; Windows remains on version 1.9.3.
+
+### Windows image support
+
+Windows **1.9.8** reads JPEG, PNG, WebP, TIFF, AVIF, JPEG XL (JXL), HEIC and HEIF across all image conversion/editing tools, Images to PDF and QR image scanning. Modern inputs include 10-bit AVIF, HEIC and HEIF. Decoders are included; no Store codec or additional download is required. The conversion shortcuts also accept these formats.
+
+- Outputs remain **standard 8-bit PNG, JPEG or WebP**, or a PDF from Images to PDF. HDR/10-bit output is not preserved.
+- AVIF, JXL and HEIC/HEIF inputs are limited to **32 MB**, **16 megapixels** and **12,000 pixels per source edge**, sampled to at most **6 megapixels**.
+- Animated or multipage images use the first/primary image. Mixed batches keep valid files when another file cannot be opened; failed replacements keep the previous selection.
 
 ### Files
 
@@ -126,7 +133,8 @@ Currency conversion uses a bundled **ECB-format snapshot dated October 30, 2026*
 
 | Input or operation | Limit |
 | :-- | :-- |
-| Image source | 256 MB compressed / up to 100 megapixels; edited output sampled to about 12 megapixels |
+| Standard image source | 256 MB compressed / up to 100 megapixels; decoded image must fit within 24 megapixels and 32,768 pixels per edge; edits sampled to about 12 megapixels |
+| AVIF, JXL, HEIC/HEIF source | 32 MB / 16 megapixels / 12,000 pixels per edge; sampled to at most 6 megapixels |
 | Image dimensions | Up to 12,000 pixels per output edge, within the pixel limit |
 | PDF input | 512 MB / up to 2,000 pages |
 | PDF merge | Up to 100 PDFs / 512 MB combined / 2,000 output pages |

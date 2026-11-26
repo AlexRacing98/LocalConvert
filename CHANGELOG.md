@@ -2,6 +2,15 @@
 
 Release downloads are available on the [Releases page](https://github.com/AlexRacing98/LocalConvert/releases).
 
+## Windows 1.9.8 — November 26, 2026
+
+- Added offline English and Simplified Chinese privacy policies, explicit Agree/Reject choices, and Withdraw agreement in Settings.
+- Added AVIF, JPEG XL and HEIC/HEIF input support, including 10-bit inputs, across image tools, Images to PDF and QR image scanning. No codec download is required.
+- Added background image checks and clearer messages for damaged or oversized files. Mixed batches retain valid images, and failed replacements keep the previous selection.
+- Image exports remain standard 8-bit color. Existing PDF compression and large-image protections are retained.
+
+[Download Windows 1.9.8](https://github.com/AlexRacing98/LocalConvert/releases/tag/windows-v1.9.8)
+
 ## Android 1.9.8 — November 23, 2026
 
 - Added explicit Agree and Reject privacy choices, with English and Simplified Chinese policies available offline.
